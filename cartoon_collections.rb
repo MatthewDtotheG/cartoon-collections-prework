@@ -21,8 +21,8 @@ end
 def find_the_cheese(possible_cheese_list)
   cheeses = ["gouda", "cheddar", "camembert"]
 
-  possible_cheese_list.find { |maybe_cheese|
-    cheeses.include?(maybe_cheese)
+  possible_cheese_list.find { |possibly_cheese|
+    cheeses.include?(possibly_cheese)
   }
 end
 
