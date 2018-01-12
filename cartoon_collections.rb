@@ -29,7 +29,7 @@ end
 def find_the_cheese(cheese)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-  possible_cheese_types.map { |cheese|
+  cheese.map { |cheese|
   cheese_types.include?(cheese)
     return cheese
   }
