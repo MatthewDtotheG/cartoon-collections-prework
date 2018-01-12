@@ -18,10 +18,19 @@ def long_planeteer_calls(calls)# code an argument here
 end
 
 
-def find_the_cheese(potentially_cheesy_items)
+def find_the_cheese(possible_cheese_list)
   cheeses = ["gouda", "cheddar", "camembert"]
 
   potentially_cheesy_items.find { |maybe_cheese|
     cheeses.include?(maybe_cheese)
+  }
+end
+
+def find_the_cheese(possible_cheese_list)# code an argument here
+  # the array below is here to help
+  cheese_types = ["cheddar", "gouda", "camembert"]
+
+  possible_cheese_list.map { |possibly_cheese|
+  cheese_types.include?(possibly_cheese)
   }
 end
