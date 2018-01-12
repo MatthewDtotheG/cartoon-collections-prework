@@ -26,12 +26,3 @@ def find_the_cheese(possible_cheese_list)# code an argument here
     cheeses.include?(possibly_cheese)
   }
 end
-
-def find_the_cheese(possible_cheese_list)# code an argument here
-  # the array below is here to help
-  cheese_types = ["cheddar", "gouda", "camembert"]
-
-  possible_cheese_list.map { |possibly_cheese|
-  cheese_types.include?(possibly_cheese)
-  }
-end
